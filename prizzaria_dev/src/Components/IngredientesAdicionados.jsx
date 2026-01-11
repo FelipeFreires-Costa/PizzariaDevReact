@@ -1,10 +1,10 @@
 import React from 'react'
 
-function IngredientesAdicionados({nome}) {
+function IngredientesAdicionados({nome, preco, aoRemover}) {
   return (
     <div>
-      <p>{nome}</p>
-      <button>Remover</button>
+      <p>{nome} | R$ {preco} </p>
+      <button onClick={aoRemover}>Remover</button>
     </div>
   )
 }
