@@ -2,9 +2,12 @@ import React from 'react'
 
 function IngredientesAdicionados({nome, preco, aoRemover}) {
   return (
-    <div className='addIngredientes'>
+    <div className='container-ingredientes-add'>
+      <div className='ingredientes-add'>
       <p>{nome} | R$ {preco} </p>
-      <button onClick={aoRemover}>Remover</button>
+      <button onClick={aoRemover}>Remover</button>        
+      </div>
+
     </div>
   )
 }

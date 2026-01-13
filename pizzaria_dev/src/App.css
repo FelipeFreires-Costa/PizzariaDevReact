@@ -1,0 +1,87 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+
+}
+
+.lista-ingrediente {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+    justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container-ingredientes {
+  width: 250px;
+}
+
+.ingredientes {
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+.tamanho-lista{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container-tamanho{
+  width: 250px;  
+}
+
+.tamanho{
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.titulo{
+  text-align: center;
+  font-size: 25px;
+}
+
+.lista-ingredientes-add{
+    display: flex;
+    height: 200px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container-ingredientes-add{
+    width: 250px; 
+}
+
+.ingredientes-add{
+border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.erro{
+  color: rgb(200, 200, 0);
+  font-size: 12px;
+}
